@@ -1,0 +1,108 @@
+
+/* Navigation Bar */
+
+.navbar { /* Spacing and style for entire navbar (Class Selector)*/
+    font-size: 20px; /* Set the font size to 20px */
+    text-align: center; /* Center the text */
+    border-bottom: 3px solid red; /* Add a red bottom border */
+    padding-top: 10px; /* Set the top padding to 10px */
+    padding-bottom: 20px; /* Set the bottom padding to 20px */
+}
+
+.navbar a { /* Style for each link in the navbar (Class Selector)*/
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set the text color to white */
+    padding: 10px; /* Set the padding to 10px */
+    background-color: red; /* Set the background color to red */
+}
+
+
+
+/* Index Page Elements */
+
+.list { /* Removes bullet point and centers the list of bike types on the index page (Class Selector)*/
+    font-size: 20px; /* Set the font size to 20px */
+    text-align: center; /* Center the text */
+    list-style-type: none; /* Remove bullet points from the list */
+}
+
+#header2 { /* Adds bottom border and spacing for the second header on index page only (ID Selector)*/
+    font-size: 25px; /* Set the font size to 25px */
+    text-align: center; /* Center the text */
+    padding-top: 10px; /* Set the top padding to 10px */
+    padding-bottom: 10px; /* Set the bottom padding to 10px */
+    border-bottom: 3px solid red; /* Add a red bottom border */
+}
+
+
+
+/* General Elements */
+
+.pagetitle { /* Sets Color, spacing and sizing for the page titles (Class Selector)*/
+    color: red; /* Set the text color to red */
+    font-size: 50px; /* Set the font size to 50px */
+    text-align: center; /* Center the text */
+    margin-top: 0px; /* Set the top margin to 0px */
+    padding-top: 0px; /* Set the top padding to 0px */
+    padding-bottom: 5px; /* Set the bottom padding to 5px */
+    border-bottom: 3px solid red; /* Add a red bottom border */
+}
+
+p { /* Sizes, centers, and pads paragraph text across the site (Element Selector)*/
+    font-size: 20px; /* Set the font size to 20px */
+    text-align: center; /* Center the text */
+    padding-top: 10px; /* Set the top padding to 10px */
+    padding-bottom: 10px; /* Set the bottom padding to 10px */
+}
+
+h2 { /* Sizes, centers, and underlines text above the table on each page (Element Selector)*/
+    font-size: 30px; /* Set the font size to 30px */
+    text-align: center; /* Center the text */
+    padding-top: 10px; /* Set the top padding to 10px */
+    text-decoration: underline; /* Underline the text */
+}
+
+img { /* Sets standard height and page alignment for images across the site (Element Selector)*/
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image */
+    padding-top: 10px; /* Set the top padding to 10px */
+    max-width: 100%; /* Set the maximum width to 100% of the container */
+    max-height: 500px; /* Set the maximum height to 500px */
+}
+
+
+
+/* Table Elements */
+
+table { /* Sets border and spacing for entire table on each page (Element Selector)*/
+    font-size: 20px; /* Set the font size to 20px */
+    padding-bottom: 10px; /* Set the bottom padding to 10px */
+    border: 3px solid red; /* Add a red border */
+    margin: 0 auto; /* Center the table */
+}
+
+table thead { /* Sets background color and text color for the table header (Element Selector)*/
+    background-color: red; /* Set the background color to red */
+    color: white; /* Set the text color to white */
+}
+
+table th, table td { /* Sets width for table cells (Element Selector)*/
+    width: 125px; /* Set the column width to 125px */
+}
+
+
+/* Form Elements */
+
+form { /* Aligns form to center of the page (Element Selector)*/
+    text-align: center; /* Center the text */
+}
+
+form input { /* Puts inputs on their own line and centers them (Element Selector)*/
+    display: block; /* Make inputs block elements */
+    margin: 10px auto; /* Center inputs and add some space above and below */
+}
+
+form select { /* Puts selects on their own line and centers them (Element Selector)*/
+    display: block; /* Make selects block elements */
+    margin: 10px auto; /* Center selects and add some space above and below */
+}

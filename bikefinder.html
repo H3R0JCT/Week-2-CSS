@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Bike</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- This is the navigation bar that will display on every page of the website.-->
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="trail.html">Trail Bikes</a>
+    <a href="xc.html">XC Bikes</a>
+    <a href="enduro.html">Enduro Bikes</a>
+    <a href="bikefinder.html">Bike Finder</a>
+</nav>
+
+<body>
+    <h1 class="pagetitle">Bike Finder</h1>
+    <p>What style of bike will fit you best?<br>Answer the following questions to find out!</p>
+
+<!--This form isn't neccessarily accurate for finding a new bike, but each input works!-->
+
+    <form action="bikefinder.html" method="post">
+
+        <!--These two inputs are text inputs for the users to type their answers-->
+        <label for="height">What is your height?</label>
+        <input type="text" id="height" name="height" placeholder="ft" required>
+        <label for="weight">What is your weight?</label>
+        <input type="text" id="weight" name="weight" placeholder="lbs" required>
+        <!--These two inputs are dropdown selections-->
+        <label for="terrain">What type of terrain do you plan to ride on?</label>
+        <select id="terrain" name="terrain" required>
+            <option value="trail">Trail</option>
+            <option value="xc">Cross Country</option>
+            <option value="downhill">Downhill</option>
+        </select>
+        <label for="experience">How much riding experience do you have?</label>
+        <select id="experience" name="experience">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+        <input type="submit" value="Submit">
+</body>
+</html> 
+
+
